@@ -56,7 +56,7 @@ void player_turn(){
         board[row][column] = 'O';
         turn = 'X';
     }else {
-        cout<<"Box already filled!n Please choose another!!nn";
+        cout<<"Box already filled!n Please choose another!!\n\n";
         player_turn();
     }
     display_board();
